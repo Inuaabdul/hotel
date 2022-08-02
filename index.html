@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <head>
+        <title>Hotel</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+               <div class="icon">
+                <img src="bed-solid.svg">
+               </div>
+                <div class="menu"  >
+                 <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#rooms">ROOMS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    
+                 </ul>
+
+               </div>
+               <div class="book">
+                   <ul> <li><a href="#">BOOK NOW</a></li></ul>
+               </div>
+            </div>
+            <div class="table">
+                <div class="head">
+                    <img src="hotel-solid.svg">
+                    <h1>THE HOTEL</h1>
+                </div>
+                <form>
+                    <div class="firstdiv">
+                      <div class="fbox">
+                          <label class="firstbox"><img src="calendar-solid.svg">Check In</label><br>
+                         <input class="checkin" type="date" placeholder="DD-MM-YYYY" name="Check In" required>
+                      </div>
+                      <div class="sbox">
+                        <label class="firstbox"><img src="calendar-solid.svg">Check Out</label><br>
+                        <input class="checkin" type="date" placeholder="DD-MM-YYYY" name="Check Out" required>
+                      </div>
+               
+                    </div>
+                    <div class="snddiv">
+                         <div class="row2">
+                           <label class="firstbox"><img src="person-solid.svg">Adult</label><br>
+                           <input class="checkin" type="number" value="1" name="Adults" min="1" max="6">
+                         </div>
+                         <div class="right">
+                            <label class="firstbox"><img src="child.svg">Child</label><br>
+                            <input class="checkin" type="number" value="0" name="Adults" min="0" max="6">
+                         </div>
+                    </div>
+                    <button class="btn" type="submit"><img src="search.svg" alt="Search"> Search availability</button>
+                </form>
+
+            </div>
+        </div>
+        <h1 class="room" id="rooms">Rooms</h1>
+        <h2 class="brief">Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</h2>
+        <div class="menu1">
+            <div class="m1">
+                <label class="a1"><img src="calendar-solid.svg">Check In</label><br>
+                <input class="bb" type="date" placeholder="DD-MM-YYYY" >
+            </div>
+               <div class="m1">
+                  <label class="a1"><img src="calendar-solid.svg">Check Out</label><br>
+                  <input class="bb" type="date" placeholder="DD-MM-YYYY" >
+                </div>
+                <div class="m1">
+                    <label class="a1"><img src="person-solid.svg">Adult</label><br>
+                    <input class="b2" type="number" placeholder=0>
+                </div>
+                <div class="m1">
+                    <label class="a1"><img src="child.svg">kids</label><br>
+                    <input class="b2" type="number" placeholder=0>
+                </div>
+                <div class="m1">
+                  <label class="a1"><img src="search.svg">Search</label><br>
+                  <button class="s2"><a href="#">Search</a></button>
+                </div>
+        </div>
+        <div class="images">
+            <div class="pp1">
+                <img src="https://www.w3schools.com/w3images/room_single.jpg">
+                <h3>Single Room</h3>
+                <h6 >From $99</h6>
+                <p>Single bed</p>
+                <p>15m<sup>2</sup></p>
+                <p class="w3-large">
+                    <img src="bath-solid.svg">
+                    <img src="phone-solid.svg">
+                    <img src="wifi-solid.svg">
+                </p>
+                <button class="w3-button"><a href="#">Choose Room</a></button>
+            </div>
+            <div class="pp1">
+                <img src="https://www.w3schools.com/w3images/room_double.jpg">
+                <h3>Double Room</h3>
+                <h6 >From $149</h6>
+                <p>Queen-size bed</p>
+                <p>25m<sup>2</sup></p>
+                <p class="w3-large">
+                    <img src="bath-solid.svg">
+                    <img src="phone-solid.svg">
+                    <img src="wifi-solid.svg">
+                    <img src="tv-solid.svg">
+                </p>
+                <button class="w3-button"><a href="#">Choose Room</a></button>
+            </div>
+            <div class="pp1">
+                <img src="https://www.w3schools.com/w3images/room_single.jpg">
+                <h3>Deluxe Room</h3>
+                <h6 >From $199</h6>
+                <p>King-size bed</p>
+                <p>40m<sup>2</sup></p>
+                <p class="w3-large">
+                    <img src="bath-solid.svg">
+                    <img src="phone-solid.svg">
+                    <img src="wifi-solid.svg">
+                    <img src="tv-solid.svg">
+                    <img src="martini-glass-solid.svg">
+                    <img src="utensils-solid.svg">
+                </p>
+                <button class="w3-button"><a href="#">Choose Room</a></button>
+            </div>
+        </div>
+        <div class="about" id="about">
+            <div class="w3-col">
+              <h3>About</h3>
+              <h6>Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h6>
+             <p class="cards">We accept:   
+
+
+                <img src="applepay.svg">
+                <img src="mastercard.svg">
+                <img src="paypal.svg">
+                <img src="credit.svg">
+             </p>
+          </div>
+            <div class="w3-col">
+              <!-- Image of location/map -->
+              <img src="https://www.w3schools.com/w3images/map.jpg" class="photo">
+            </div>
+     </div> 
+     <div class="foot">
+        <div class="w3-third"><img src="location.svg"> 423 Some adr, Chicago, US</div>
+        <div class="w3-third"><img src="phone-solid.svg"> Phone: +00 151515</div>
+        <div class="w3-third"><img src="mail.svg#"> Email: mail@mail.com</div>
+      </div>
+      <div class="ps">
+        <h6><img src="circleinfo.svg">On demand, we can offer playstation, babycall, children care, dog equipment, etc.</h6>
+      </div>
+      <div class="ourhotels">
+        <h3>Our Hotels</h3>
+        <h6>You can find our hotels anywhere in the world:</h6>
+      </div>
+      <div class="mail">
+        <h2>Get the best offers first!</h2>
+        <p>Join our newsletter.</p>
+        <label>E-mail</label><br>
+        <input class="email" type="text" placeholder="Your Email address"><br>
+        <button type="button" class="subscribe"><a href="#">Subscribe</a></button>
+      </div>
+      <div class="moreinfo" id="contact">
+        <h2>Contact</h2>
+        <p class="oo1">If you have any questions, do not hesitate to ask them.</p>
+        <img src="location.svg">Chicago, US<br><br>
+        <img src="phone-solid.svg"> Phone: +00 151515<br><br>
+        <img src="mail.svg"> Email: mail@mail.com<br>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="placeholder" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="placeholder" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="placeholder" type="text" placeholder="Message" required name="Message"></p>
+          <p><button class="subs" type="submit"><a href="#">SEND MESSAGE</a></button></p>
+        </form>
+      </div>
+      <footer class="footer">
+        <h5>Find Us On</h5>
+        <div class="icons123">
+          <img src="instagram-brands.svg">
+          <img src="facebook-brands.svg">
+          <img src="snapchat-brands.svg">
+          <img src="pinterest-brands.svg">
+          <img src="twitter-brands.svg">
+          <img src="linkedin-brands.svg">
+        </div>
+        <p class="w312">Powered by <a href="#">ME</a></p>
+      </footer>
+        
+         
+    </body>
+
+</html>
